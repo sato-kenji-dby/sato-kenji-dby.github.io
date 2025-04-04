@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 更新标题 -->
+    <title>Music Theory Toolkit</title>
+    <!-- 引入全局样式 -->
+    <script type="module" crossorigin src="/assets/index-CGxtPw7s.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DAhVVLkZ.css">
+  </head>
+  <body>
+    <!-- 使用一个容器方便整体布局 -->
+    <div id="app" class="app-container">
+
+      <!-- 侧边栏: 用于显示工具列表 -->
+      <aside id="tool-selector-container" class="sidebar">
+        <h2>Tools</h2>
+        <!-- 工具列表将由 JavaScript (ToolSelector.js) 动态生成 -->
+        <nav id="tool-list"></nav>
+      </aside>
+
+      <!-- 主内容区: 用于显示当前选中的工具 -->
+      <main id="tool-display-area" class="main-content">
+        <!-- 初始提示信息 -->
+        <p>Select a tool from the sidebar to get started.</p>
+      </main>
+
+    </div>
+
+    <!-- JavaScript 入口点 -->
+  </body>
+</html>
