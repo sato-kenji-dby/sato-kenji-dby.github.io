@@ -20,7 +20,7 @@ const r=`<!-- src/tools/FreeKontaktLibraries/FreeKontaktLibraries.html -->
       <h4>基础与综合包 (Foundation & Bundles)</h4>
        <ul>
         <li><a href="https://www.native-instruments.com/en/products/komplete/bundles/komplete-start/" target="_blank" rel="noopener noreferrer">Native Instruments Komplete Start (包含 Kontakt Player, Reaktor Player 及众多音源效果器)</a></li>
-         <li><a href="https://www.native-instruments.com/en/products/komplete/kontakt-7-player/" target="_blank" rel="noopener noreferrer">Native Instruments Kontakt Player (独立播放器)</a></li>
+         <li><a href="https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8-player/" target="_blank" rel="noopener noreferrer">Native Instruments Kontakt Player (独立播放器)</a></li>
       </ul>
   
       <!-- 主要音源厂商免费精选 -->
@@ -72,25 +72,25 @@ const r=`<!-- src/tools/FreeKontaktLibraries/FreeKontaktLibraries.html -->
       <h5>Fracture Sounds</h5>
       <ul>
         <!-- Fracture Sounds 列表保持不变 -->
-        <li><a href="https://fracturesounds.com/product/textural-pianos-free-piano-samples/" target="_blank" rel="noopener noreferrer">Textural Pianos - Interweaving Keys</a></li>
-        <li><a href="https://fracturesounds.com/product/woodwind-ensemble-shorts-and-sustains/" target="_blank" rel="noopener noreferrer">Woodwind Ensemble - Shorts and Sustains</a></li>
-        <li><a href="https://fracturesounds.com/product/bass-guitar-precision-bass/" target="_blank" rel="noopener noreferrer">Bass Guitar - Precision Bass</a></li>
-        <li><a href="https://fracturesounds.com/product/church-organ-majestic-pipe-organ/" target="_blank" rel="noopener noreferrer">Church Organ - Majestic Pipe Organ</a></li>
-        <li><a href="https://fracturesounds.com/product/string-trio-solo-strings/" target="_blank" rel="noopener noreferrer">String Trio - Solo Strings</a></li>
-        <li><a href="https://fracturesounds.com/product/music-box-metallic-plucks/" target="_blank" rel="noopener noreferrer">Music Box - Metallic Plucks</a></li>
-        <li><a href="https://fracturesounds.com/product/gentle-brass-warm-delicate/" target="_blank" rel="noopener noreferrer">Gentle Brass - Warm & Delicate</a></li>
-        <li><a href="https://fracturesounds.com/product/drum-kit-versatile-percussion/" target="_blank" rel="noopener noreferrer">Drum Kit - Versatile Percussion</a></li>
-        <li><a href="https://fracturesounds.com/product/epic-grand-piano-octaves/" target="_blank" rel="noopener noreferrer">Epic Grand Piano Octaves</a></li>
-        <li><a href="https://fracturesounds.com/product/feedback-guitar-ambient-pads/" target="_blank" rel="noopener noreferrer">Feedback Guitar - Ambient Pads</a></li>
-        <li><a href="https://fracturesounds.com/product/short-strings-playful-staccato/" target="_blank" rel="noopener noreferrer">Short Strings - Playful Staccato</a></li>
-        <li><a href="https://fracturesounds.com/product/gentle-strings-chamber-ensemble/" target="_blank" rel="noopener noreferrer">Gentle Strings - Chamber Ensemble</a></li>
-        <li><a href="https://fracturesounds.com/product/toy-piano-mysterious-chimes/" target="_blank" rel="noopener noreferrer">Toy Piano - Mysterious Chimes</a></li>
-        <li><a href="https://fracturesounds.com/product/textural-violin-string-experiments/" target="_blank" rel="noopener noreferrer">Textural Violin - String Experiments</a></li>
-        <li><a href="https://fracturesounds.com/product/festive-bells-christmas-themed-percussion/" target="_blank" rel="noopener noreferrer">Festive Bells - Christmas Themed Percussion</a></li>
-        <li><a href="https://fracturesounds.com/product/gentle-winds-ethereal-textures/" target="_blank" rel="noopener noreferrer">Gentle Winds - Ethereal Textures</a></li>
-        <li><a href="https://fracturesounds.com/product/greenhead-chimes-ambient-percussion-pads/" target="_blank" rel="noopener noreferrer">Greenhead Chimes - Ambient Percussion & Pads</a></li>
-         <li><a href="https://fracturesounds.com/product/electric-keys-vintage-electric-piano/" target="_blank" rel="noopener noreferrer">Electric Keys - Vintage Electric Piano</a></li>
-         <li><a href="https://fracturesounds.com/product/emotional-recorder-april-fools-library/" target="_blank" rel="noopener noreferrer">Emotional Recorder (April Fools Library)</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-textural-pianos/" target="_blank" rel="noopener noreferrer">Textural Pianos - Interweaving Keys</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-woodwind-ensemble/" target="_blank" rel="noopener noreferrer">Woodwind Ensemble - Shorts and Sustains</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-bass-guitar/" target="_blank" rel="noopener noreferrer">Bass Guitar - Precision Bass</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-church-organ/" target="_blank" rel="noopener noreferrer">Church Organ - Majestic Pipe Organ</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-string-trio" target="_blank" rel="noopener noreferrer">String Trio - Solo Strings</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-music-box" target="_blank" rel="noopener noreferrer">Music Box - Metallic Plucks</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-gentle-brass" target="_blank" rel="noopener noreferrer">Gentle Brass - Warm & Delicate</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-drum-kit" target="_blank" rel="noopener noreferrer">Drum Kit - Versatile Percussion</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-epic-grand" target="_blank" rel="noopener noreferrer">Epic Grand Piano Octaves</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-feedback-guitar" target="_blank" rel="noopener noreferrer">Feedback Guitar - Ambient Pads</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-short-strings" target="_blank" rel="noopener noreferrer">Short Strings - Playful Staccato</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-gentle-strings" target="_blank" rel="noopener noreferrer">Gentle Strings - Chamber Ensemble</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-toy-piano" target="_blank" rel="noopener noreferrer">Toy Piano - Mysterious Chimes</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-textural-violin" target="_blank" rel="noopener noreferrer">Textural Violin - String Experiments</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-festive-bells" target="_blank" rel="noopener noreferrer">Festive Bells - Christmas Themed Percussion</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-gentle-winds" target="_blank" rel="noopener noreferrer">Gentle Winds - Ethereal Textures</a></li>
+        <li><a href="https://fracturesounds.com/product/blueprint-greenhead-chimes" target="_blank" rel="noopener noreferrer">Greenhead Chimes - Ambient Percussion & Pads</a></li>
+         <li><a href="https://fracturesounds.com/product/blueprint-electric-keys" target="_blank" rel="noopener noreferrer">Electric Keys - Vintage Electric Piano</a></li>
+         <li><a href="https://fracturesounds.com/product/blueprint-emotional-recorder" target="_blank" rel="noopener noreferrer">Emotional Recorder (April Fools Library)</a></li>
       </ul>
   
        <h5>Heavyocity</h5>
@@ -107,18 +107,22 @@ const r=`<!-- src/tools/FreeKontaktLibraries/FreeKontaktLibraries.html -->
       <h5>Impact Soundworks</h5>
       <ul>
          <!-- ISW 列表保持不变 -->
-        <li><a href="https://impactsoundworks.com/product/tokyo-scoring-strings-freebie/" target="_blank" rel="noopener noreferrer">Tokyo Scoring Strings Freebie</a></li>
+        <li><a href="https://impactsoundworks.com/product/tokyo-scoring-strings-free/" target="_blank" rel="noopener noreferrer">Tokyo Scoring Strings Freebie</a></li>
         <li><a href="https://impactsoundworks.com/product/shreddage-3-precision-free/" target="_blank" rel="noopener noreferrer">Shreddage 3 Precision Free</a></li>
         <li><a href="https://impactsoundworks.com/product/shreddage-3-stratus-free/" target="_blank" rel="noopener noreferrer">Shreddage 3 Stratus Free</a></li>
          <li><a href="https://impactsoundworks.com/product/the-88e/" target="_blank" rel="noopener noreferrer">The 88E (Piano)</a></li>
           <li><a href="https://impactsoundworks.com/product/shredder/" target="_blank" rel="noopener noreferrer">Shredder (Possibly older, check availability)</a></li>
+          <li><a href="https://impactsoundworks.com/product/ohs-hit/" target="_blank" rel="noopener noreferrer">Orchestral Hit System: High Intensity Transients</a></li>
       </ul>
   
        <h5>Native Instruments</h5>
        <ul>
          <!-- Komplete Start 和 Kontakt Player 已移至“基础”类别 -->
-         <li><a href="https://www.native-instruments.com/en/products/komplete/play-series/jacob-collier-audience-choir/" target="_blank" rel="noopener noreferrer">Jacob Collier Audience Choir</a></li>
-         <!-- NI 可能还有其他隐藏的免费内容或 Play Series Free -->
+         <li><a href="https://www.native-instruments.com/en/products/komplete/vocal/jacob-collier-audience-choir/" target="_blank" rel="noopener noreferrer">Jacob Collier Audience Choir</a></li>
+         <li><a href="https://www.native-instruments.com/en/products/komplete/play-series/analog-dreams/" target="_blank" rel="noopener noreferrer">ANALOG DREAMS</a></li>
+         <li><a href="https://www.native-instruments.com/en/products/komplete/play-series/ethereal-earth/" target="_blank" rel="noopener noreferrer">ETHEREAL EARTH</a></li>
+         <li><a href="https://www.native-instruments.com/en/products/komplete/synths/hypha/" target="_blank" rel="noopener noreferrer">Hypha</a></li>
+         <li><a href="https://www.native-instruments.com/en/products/komplete/spotlight-collection/irish-harp/" target="_blank" rel="noopener noreferrer">Irish Harp</a></li>
        </ul>
   
       <h5>ProjectSAM</h5>
@@ -148,10 +152,12 @@ const r=`<!-- src/tools/FreeKontaktLibraries/FreeKontaktLibraries.html -->
       <h5>Sonokinetic</h5>
       <ul>
          <!-- Sonokinetic 列表保持不变 -->
-        <li><a href="https://www.sonokinetic.net/products/instruments/tutti-free/" target="_blank" rel="noopener noreferrer">Tutti Free (Aleatoric Orchestral Phrases)</a></li>
-         <li><a href="https://www.sonokinetic.net/products/classical/emp/" target="_blank" rel="noopener noreferrer">EMP (Rhodes Piano - 检查是否仍免费)</a></li>
-        <li><a href="https://www.sonokinetic.net/products/ethnic/hurdy-gurdy/" target="_blank" rel="noopener noreferrer">Hurdy Gurdy</a></li>
-        <li><a href="https://www.sonokinetic.net/products/classical/carousel/" target="_blank" rel="noopener noreferrer">Carousel (Fairground Organ)</a></li>
+        <li><a href="https://www.sonokinetic.net/products/classical/tutti/" target="_blank" rel="noopener noreferrer">Tutti Free (Aleatoric Orchestral Phrases)</a></li>
+         <li><a href="https://www.sonokinetic.net/products/contemporary/emp/" target="_blank" rel="noopener noreferrer">EMP (Rhodes Piano - 检查是否仍免费)</a></li>
+         <li><a href="https://www.sonokinetic.net/sleighbells/" target="_blank" rel="noopener noreferrer">Sleigh Bells</a></li>
+         <li><a href="https://www.sonokinetic.net/products/instruments/vivace-legacy/" target="_blank" rel="noopener noreferrer">Vivace (Orchestral Tutti Samples)</a></li>
+        <li><a href="https://www.sonokinetic.net/products/classical/hurdygurdy/" target="_blank" rel="noopener noreferrer">Hurdy Gurdy</a></li>
+        <li><a href="https://www.sonokinetic.net/products/instruments/carousel/" target="_blank" rel="noopener noreferrer">Carousel (Fairground Organ)</a></li>
       </ul>
   
       <h5>Sonuscore</h5>
