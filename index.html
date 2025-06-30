@@ -5,11 +5,11 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- 更新标题 -->
-    <title>Music Theory Toolkit</title>
+    <title data-i18n="title">Music Theory Toolkit</title>
     <!-- 引入重置和变量样式 -->
     <!-- 引入全局样式 -->
-    <script type="module" crossorigin src="/assets/index-CvqoL5gV.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DS5bYSfb.css">
+    <script type="module" crossorigin src="/assets/index-BVysS7N4.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DEpVjJHb.css">
   </head>
   <body>
     <!-- 使用一个容器方便整体布局 -->
@@ -17,7 +17,14 @@
 
       <!-- 侧边栏: 用于显示工具列表 -->
       <aside id="tool-selector-container" class="sidebar">
-        <h2><a href="/" class="button">工具箱</a></h2>
+        <h2 data-i18n="toolbox"><a href="#/" class="button"></a></h2>
+        <!-- 语言切换器 -->
+        <div class="language-switcher">
+          <select id="language-select">
+            <option value="zh">中文(zh-CN)</option>
+            <option value="en">English</option>
+          </select>
+        </div>
         <!-- 工具列表将由 JavaScript (ToolSelector.js) 动态生成 -->
         <nav id="tool-list"></nav>
       </aside>
@@ -26,46 +33,42 @@
       <main id="tool-display-area" class="main-content">
         <!-- 经过优化的全新欢迎内容 -->
         <div class="welcome-container">
-          <h1>欢迎来到音乐理论学习工具箱</h1>
-          <p class="tagline">一个让音乐理论学习更直观、更高效的交互式平台。</p>
+          <h1 data-i18n="welcomeTitle"></h1>
+          <p class="tagline" data-i18n="tagline"></p>
           
-          <p class="intro-text">
-            本工具箱旨在通过程序化计算和可视化，替代学习过程中繁琐的人工查表与推算。我们利用 <strong>Tonal.js</strong> 进行精确的音乐理论计算，并通过 <strong>VexFlow</strong> 将结果渲染成清晰的乐谱，帮助您加深理解，提高学习效率。
-          </p>
+          <p class="intro-text" data-i18n="introText"></p>
 
-          <h2>探索我们的工具</h2>
+          <h2 data-i18n="exploreTools"></h2>
 
           
           <div class="tool-grid">
             <div class="tool-card">
-              <h3><a href="#/note-sequence-renderer" class="button">音符序列渲染器</a></h3>
-              <p>将音符序列渲染为可播放、可导出的乐谱，支持自定义设置。</p>
+              <h3><a href="#/note-sequence-renderer" class="button" data-i18n="noteSequenceRenderer"></a></h3>
+              <p data-i18n="noteSequenceRendererDesc"></p>
             </div>
             <div class="tool-card">
-              <h3><a href="#/interval-calculator" class="button">音程分析器</a></h3>
-              <p>计算任意两个音符间的音程，支持声部构建与和弦识别。</p>
+              <h3><a href="#/interval-calculator" class="button" data-i18n="intervalCalculator"></a></h3>
+              <p data-i18n="intervalCalculatorDesc"></p>
             </div>
             <div class="tool-card">
-              <h3><a href="#/scale-explorer" class="button">音阶浏览器</a></h3>
-              <p>生成并显示各种音阶，提供用法建议并高亮其特征音。</p>
+              <h3><a href="#/scale-explorer" class="button" data-i18n="scaleExplorer"></a></h3>
+              <p data-i18n="scaleExplorerDesc"></p>
             </div>
             <div class="tool-card">
-              <h3><a href="#/key-relationships" class="button">调关系可视化</a></h3>
-              <p>使用五度圈等图形，直观展示各调之间的关系。</p>
+              <h3><a href="#/key-relationships" class="button" data-i18n="keyRelationships"></a></h3>
+              <p data-i18n="keyRelationshipsDesc"></p>
             </div>
             <div class="tool-card">
-              <h3><a href="#/accent-recognizer" class="button">重音识别器</a></h3>
-              <p>分析多声部音乐的节拍、时值与音高轮廓，并可视化重音。</p>
+              <h3><a href="#/accent-recognizer" class="button" data-i18n="accentRecognizer"></a></h3>
+              <p data-i18n="accentRecognizerDesc"></p>
             </div>
             <div class="tool-card">
-              <h3><a href="#/free-kontakt-libs" class="button">免费音乐制作资源</a></h3>
-              <p>精选的免费音色库资源列表，助您创作。</p>
+              <h3><a href="#/free-kontakt-libs" class="button" data-i18n="freeKontaktLibs"></a></h3>
+              <p data-i18n="freeKontaktLibsDesc"></p>
             </div>
           </div>
 
-          <p class="call-to-action">
-            准备好了吗？请从左侧边栏选择一个工具开始您的探索之旅！
-          </p>
+          <p class="call-to-action" data-i18n="callToAction"></p>
 
         </div>
       </main>
